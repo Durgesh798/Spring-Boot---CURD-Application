@@ -5,3 +5,5 @@ Creating API and testing using Postman
 Database: MySQL 
 
 Clone Repo: git clone https://github.com/Durgesh798/Spring-Boot---CURD-Application.git
+
+Build: mvn clean install -DskipTests
