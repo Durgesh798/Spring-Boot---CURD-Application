@@ -11,4 +11,5 @@ public interface StudentService {
 	Student getStudentById(long id);
 	Student updateStudent(Student st, long id);
 	void deleteStudent(long id);
+	String getDataFromExternalApi();
 }

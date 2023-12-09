@@ -55,4 +55,8 @@ public class StudentController {
     	return new ResponseEntity<String>("Student deleted successfully",HttpStatus.OK);
     }
 
+    @GetMapping("/getData")
+    public String getDataFromExternalApi() {
+        return studentservice.getDataFromExternalApi();
+    }
 }
